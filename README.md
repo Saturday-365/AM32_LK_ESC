@@ -1,4 +1,17 @@
 # AM32-MultiRotor-ESC-firmware
+
+## 日志
+
+日期|日志   
+----|---- 
+<i><b>2026.3.26 | 1、初步建立仓库，下载芯片DATASHIT
+<i><b>2026.3.27 | 1、下载官方demo，keil打开运行，原先编译器编译器版本过高，下载旧版本成功编译<br>2、lks单片机为5v系统，自有的大部分仿真器无法通信，用提供的大号仿真器进行下载，发现原先焊接dio clk线序相反，纠正后，程序顺利下载<br>3、测试LKSconfig，配置时钟及gpio生成空白工程 成功电灯后面打算将所有外设测试一遍后开始移植 AM32
+<i><b>2026.3.28 | 1、经过学习评估，fork一个AM32进行工程移植<br>2、完成工程移植 成功在此工程中点灯
+
+
+
+
+
 Firmware for ARM based speed controllers
 <p align="left">
   <a href="/LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-brightgreen" alt="GitHub license" /></a>
