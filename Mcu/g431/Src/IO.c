@@ -79,8 +79,7 @@ uint8_t getInputPinState() { return (INPUT_PIN_PORT->IDR & INPUT_PIN); }
 
 void setInputPolarityRising()
 {
-    LL_TIM_IC_SetPolarity(IC_TIMER_REGISTER, IC_TIMER_CHANNEL,
-        LL_TIM_IC_POLARITY_RISING);
+    LL_TIM_IC_SetPolarity(IC_TIMER_REGISTER, IC_TIMER_CHANNEL,LL_TIM_IC_POLARITY_RISING);
 }
 
 void setInputPullDown()

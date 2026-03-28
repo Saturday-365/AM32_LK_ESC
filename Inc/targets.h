@@ -34,6 +34,8 @@
 // #define GD32SKYSTARS25
 // #define GD32SKYSTARS30
 // #define GD32SKYSTARS40
+
+//   #define LKS32MC074DX
 #endif
 
 // used to hold a port/pin in a single 16 bit integer

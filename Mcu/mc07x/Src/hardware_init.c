@@ -37,6 +37,7 @@ void Common_GPIOInit(void)
     GPIO_InitStruct.GPIO_PODEna = DISABLE;
     GPIO_Init(GPIO3, &GPIO_InitStruct);
     
+
     /* USER CODE BEGIN Common_GPIOInit */
     
     /* USER CODE END Common_GPIOInit */

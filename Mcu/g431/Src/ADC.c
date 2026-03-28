@@ -28,6 +28,7 @@
 #define ADC_DELAY_CALIB_ENABLE_CPU_CYCLES \
     (LL_ADC_DELAY_CALIB_ENABLE_ADC_CYCLES * 64)
 
+
  void ADC_DMA_Callback()
 { // read dma buffer and set extern variables
  #ifdef USE_ADC_1_2
