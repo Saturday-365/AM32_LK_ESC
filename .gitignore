@@ -7,6 +7,8 @@ Keil_Projects/*.uvguix.*
 Keil_Projects/Objects
 Keil_Projects/RTE/*
 Keil_Projects/Listings
+user_file/
+
 *.bin
 *.elf
 *.d
